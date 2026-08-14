@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get code
-        uses: actions/checkout
+        uses: actions/checkout@v4
       - name: install npm dependencies
         run: npm ci
       - name: Run tests
